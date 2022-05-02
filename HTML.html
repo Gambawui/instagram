@@ -1,18 +1,32 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8bc384430b.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div>
+
+        <div id="top">
              <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
-             <input type="search" value ="검색"/>
+             <div class="search-bar">
+                <input type="search" placeholder="검색"/>
+             </div>
+             <div>
+                <i class="fas fa-home"></i>
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
+            </div>
         </div>
+
         <div id="profile">
             <div id="profile_pic">
-                <img src="image/profile_1.jpg" width="50px" class="circle_pic"/>
+                <img src="image/profile_1.jpg" class="circle_pic"/>
             </div>
-             <div>
-                 <h2>Half_Bottle</h2>
+             <div id="profile_info">
+                 <div id="id">
+                    Half_Bottle
+                    <i class="fas fa-cog"></i>
+                 </div>
                 <button>프로필 편집</button>
             </div>
         </div>
@@ -68,7 +82,23 @@
             </div>
         </div>
 
-        <div>아이폰이 들어갈 자리</div>
+        <div id="sub_icons">
+            <div class="selected">
+                <i class ="fas fa-border-all"></i>
+            </div>
+            <div>
+                <i class ="fas fa-film"></i>
+            </div>
+            <div>
+                <i class ="fas fa-play-circle"></i>
+            </div>
+            <div>
+                <i class ="fas fa-bookmark"></i>
+            </div>
+            <div>
+                <i class ="fas fa-user-tag"></i>
+            </div>
+        </div>
         <div>
             <div class="thumbnail_grid">
                 <img src="image/thumbnails/1.jpg" class="thumbnail"/>
